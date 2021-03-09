@@ -22,10 +22,7 @@ def add_list_numbers(incoming_list: list):
     Required parameter, incoming_list, should be a list.
     Add all the values together and return it.
     """
-    if isinstance(incoming_list, list) == False:
-        return 0
-    else
-        return sum(incoming_list)
+    return sum(incoming_list)
 
 
 def longest_value_key(incoming_dict: dict):

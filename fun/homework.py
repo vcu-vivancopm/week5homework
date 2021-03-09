@@ -24,7 +24,8 @@ def add_list_numbers(incoming_list: list):
     """
     if isinstance(incoming_list, list) == False:
         return 0
-    return sum(incoming_list)
+    else
+        return sum(incoming_list)
 
 
 def longest_value_key(incoming_dict: dict):

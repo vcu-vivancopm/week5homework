@@ -25,7 +25,7 @@ def add_list_numbers(incoming_list: list):
     return sum(incoming_list)
 
 
-def longest_value_key(incoming_dict):
+def longest_value_key(incoming_dict: dict):
     """
     Required parameter, incoming_dict, should be a dict.
     Find the KEY that has a value with the highest length, use the len() function
